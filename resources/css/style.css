@@ -1055,7 +1055,7 @@ nav .logo_link {
 
 #search_engine {
     width: 100%;
-    height: 100vh;
+    height: 104vh;
     overflow: hidden;
     background: linear-gradient(rgba(30, 47, 231, 0.557), rgba(35, 99, 217, 0.635)) 0% 0% / cover, url("http://i.hizliresim.com/v4Qykv.png") center center no-repeat fixed;
     text-align: center;
@@ -1064,6 +1064,11 @@ nav .logo_link {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#search_engine .main_search_info {
+    background: #000000a8;
+    border-radius: 14px;
 }
 
 #search_engine .logo_bg_search {
@@ -1186,27 +1191,29 @@ nav .logo_link {
     background-repeat: no-repeat; */
 }
 
-#search_engine .test_section {
-    margin-top: 9rem;
-}
-
 #search_engine .question_img {
     width: 100%;
-    max-width: 6rem;
+    max-width: 4rem;
     cursor: pointer;
     position: absolute;
     right: 5%;
     top: 4%;
 }
 
-#search_engine .inter_net_working .inter-working_info {
+#search_engine .inter-working_info {
     font-size: 1.5rem;
+    position: absolute;
+    bottom: 16%;
+    right: 24%;
 }
 
-#search_engine .test_section .tested_img {
+#search_engine .tested_img {
     width: 100%;
     max-width: 9rem;
     cursor: pointer;
+    position: absolute;
+    right: 2%;
+    bottom: 11%;
 }
 
 .modal_common .modal-header h1 {
@@ -1276,8 +1283,12 @@ nav .logo_link {
     #search_engine .inter_net_working .inter-working_info {
         font-size: 1.1rem;
     }
-    #search_engine .test_section .tested_img {
+    #search_engine .tested_img {
         max-width: 6rem;
+        bottom: 19%;
+    }
+    #search_engine .inter-working_info {
+        bottom: 20%;
     }
     .modal_common .modal-dialog .modal-header {
         padding: 1rem 2rem;
@@ -1341,11 +1352,14 @@ nav .logo_link {
     #search_engine .question_img {
         width: 2rem;
     }
-    #search_engine .inter_net_working .inter-working_info {
-        font-size: .8rem;
+    #search_engine .inter-working_info {
+        bottom: 31%;
+        font-size: 1rem;
+        right: 21%;
     }
-    #search_engine .test_section .tested_img {
+    #search_engine .tested_img {
         width: 3rem;
+        bottom: 31%;
     }
 }
 
