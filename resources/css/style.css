@@ -1265,8 +1265,8 @@ nav .logo_link {
         font-size: 1.1rem;
         color: rgb(255, 255, 255);
     }
-    .text-typing p {
-        font-size: 1rem;
+    #search_engine .text-typing p {
+        font-size: 1.6rem;
     }
     #search_engine .default_search a {
         font-size: 1.2rem;
@@ -1280,15 +1280,13 @@ nav .logo_link {
     #search_engine .question_img {
         max-width: 5rem;
     }
-    #search_engine .inter_net_working .inter-working_info {
-        font-size: 1.1rem;
-    }
     #search_engine .tested_img {
         max-width: 6rem;
-        bottom: 19%;
+        bottom: 10%;
     }
     #search_engine .inter-working_info {
-        bottom: 20%;
+        bottom: 12%;
+        font-size: 1.2rem;
     }
     .modal_common .modal-dialog .modal-header {
         padding: 1rem 2rem;
@@ -1308,9 +1306,6 @@ nav .logo_link {
 }
 
 @media screen and (max-width: 320px) {
-    #search_engine {
-        /* padding-bottom: 8rem !important; */
-    }
     #search_engine .searchInt {
         font-size: 0.8rem;
     }
@@ -1336,7 +1331,7 @@ nav .logo_link {
     #search_engine .cydogbrowser_intensifies_img {
         width: 6rem;
     }
-    .text-typing p {
+    #search_engine .text-typing p {
         font-size: 1rem !important;
     }
     #search_engine .default_search .new_img {
@@ -1346,20 +1341,20 @@ nav .logo_link {
         font-size: .7rem;
         line-height: 1;
     }
-    .default_search {
+    #search_engine .default_search {
         margin-top: -2rem;
     }
     #search_engine .question_img {
         width: 2rem;
     }
     #search_engine .inter-working_info {
-        bottom: 31%;
+        bottom: 27%;
         font-size: 1rem;
         right: 21%;
     }
     #search_engine .tested_img {
         width: 3rem;
-        bottom: 31%;
+        bottom: 26%;
     }
 }
 
